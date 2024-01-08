@@ -1,0 +1,17 @@
+<div class="container ">
+  <div class="d-flex text-decoration-none" *ngFor="let r of getString(); let i = index" style="margin-bottom: 10px; border: 1px solid black; border-radius: 5px; flex-direction: column;">
+    <a (click)="scrollTop()" [routerLink]="['project',i]" class="" style="padding: 0px;">
+      <div class="img" style=" background-image: url({{r.thumbnail}});"></div>
+    </a>
+    <div class="content d-flex align-items-center justify-content-center flex-column ">
+      <div class="title  ">{{r.name}}</div>
+      <div class="date">{{r.date}}</div>
+      <div class="desc">{{r.desc_s}}</div>
+    </div>
+  </div>  
+  <div class="page d-flex align-items-center justify-content-center gap-1">
+    <div class="button-prev" style="background-image: url('/assets/img/circle-chevron-left-solid.svg');" (click)="changePage(-1)" [ngClass]="{'disable' : checkLower(-1)}"></div>
+    <div class="current-page">{{page + 1}}</div>
+    <div class="button-next" style="background-image: url('/assets/img/circle-chevron-right-solid.svg');" (click)="changePage(1)" [ngClass]="{'disable' : checkOver(1)}"></div>
+  </div>
+</div>

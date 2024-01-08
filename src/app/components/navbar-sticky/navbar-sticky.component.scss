@@ -1,0 +1,118 @@
+#unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.topbar{
+  background-color: rgba($color: #fff, $alpha: 0.9);
+}
+
+.nav-link{
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.nav-link:hover{
+  transition: color 0.2s ease-in-out;
+  color: #00597a;
+}
+
+@font-face {
+  font-family: league;
+  src: url('/assets/fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
+
+ul{
+  margin-left: 1rem;
+  font-size: 1.2em;
+}
+
+.brand{
+  text-decoration: none;
+  text-align: left;
+}
+
+.brand h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #00597a;
+  margin-bottom: 0;
+}
+.brand p{
+  margin-top: -15px;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1.3em;
+  font-weight: 500;
+  color: #00597a;
+}
+
+.is-active{
+  color: #00597a;
+}
+
+.batton{
+  cursor: pointer;
+}
+
+#drop{
+  display: inline-block;
+  position: relative;
+}
+
+#drop .dropdown{
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  transform: translateY(50px);
+  left: -10px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px 3px rgba(0, 0, 0, 0.3);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  z-index: 111;
+  transition: 0.3s all;
+  list-style: none;
+  li{
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin:0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #drop:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+    ul li:hover {
+      background-color: rgba($color: #585858, $alpha: 0.1);
+      a{
+        transition: color 0.2s ease-in-out;
+        color: #00597a;
+      }
+    }
+  }
+  
+  #drop .dropdown a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+  }
+  
+}

@@ -1,0 +1,40 @@
+
+
+<div class="mt-1 mb-1 " id="serv"> 
+  <div class="row m-0 p-0 ">
+    <div class="col-lg-6 m-0 p-0">
+      <a class="service-link" (click)="scrollTop()" [routerLink]="['/services/1']">
+        <div class="obscure">
+          <div class="centered">{{s.getString('services','service1')}}</div>
+          <div id="img1" class="service"></div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-6 m-0 p-0">
+      <a class="service-link" (click)="scrollTop()" [routerLink]="['/services/2']">
+        <div class="obscure">
+          <div class="centered">{{s.getString('services','service2')}}</div>
+          <div id="img2" class="service"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="row m-0 p-0 ">
+    <div class="col-lg-6 m-0 p-0">
+      <a class="service-link" (click)="scrollTop()" [routerLink]="['/services/3']">
+        <div class="obscure">
+          <div class="centered">{{s.getString('services','service3')}}</div>
+          <div id="img3" class="service"></div>
+        </div>
+      </a>
+    </div>
+    <div class="col-lg-6 m-0 p-0">
+      <a class="service-link" (click)="scrollTop()" [routerLink]="['/services/4']">
+        <div class="obscure">
+          <div class="centered">{{s.getString('services','service4')}}</div>
+          <div id="img4" class="service"></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

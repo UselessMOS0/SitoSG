@@ -1,0 +1,29 @@
+.carousel-item img {
+  object-fit: cover;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  object-position: center;
+  display: block; 
+  object-fit: cover;
+}
+
+
+
+#img1 {
+  background-image: url("/assets/img/1.jpg");
+}
+
+#img2 {
+  background-image: url("/assets/img/2.jpg");
+}
+
+#img3 {
+  background-image: url("/assets/img/3.jpg");
+}
+
+#img4 {
+  background-image: url("/assets/img/4.jpg");
+}

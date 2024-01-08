@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+$primary: #00597a;
+$body-bg: #fff;
+$secondary: #8300d9;
+$carousel-control-icon-width:        4rem;
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,300&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: overlay;
+  min-height: 100vh;
+}
+
+
+::-webkit-scrollbar
+{
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba($color: #fff, $alpha: .2);
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

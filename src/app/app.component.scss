@@ -1,0 +1,41 @@
+*{margin: 0;}
+nav{
+    margin-bottom: 3px;
+}
+
+.container-fluid{
+    margin: 0px;
+}
+
+body{
+    color: white;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link{
+    &.active {color: #ffffff;}
+}
+
+@font-face{
+    font-family: 'BrandFont';
+    src: url('/assets/fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
+
+.navbar-brand{
+    font-family: 'BrandFont';
+    font-size: 2.3rem;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background: repeating-linear-gradient(
+        -55deg,
+        #222,
+        #222 10px,
+        #333 10px,
+        #333 20px
+      );
+    }
