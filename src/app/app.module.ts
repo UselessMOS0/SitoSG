@@ -15,6 +15,7 @@ import { GalleryComponent } from './components/services/gallery/gallery.componen
 import { OutletComponent } from './components/services/outlet/outlet.component';
 import { ProjectComponent } from './components/services/project/project.component';
 import { NavbarStickyComponent } from './components/navbar-sticky/navbar-sticky.component';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { NavbarStickyComponent } from './components/navbar-sticky/navbar-sticky.
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgxPageScrollCoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
