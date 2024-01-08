@@ -10,8 +10,8 @@
     </div>
   </div>  
   <div class="page d-flex align-items-center justify-content-center gap-1">
-    <div class="button-prev" style="background-image: url('/assets/img/circleLeft.svg');" (click)="changePage(-1)" [ngClass]="{'disable' : checkLower(-1)}"></div>
+    <div class="button-prev" style="background-image: url('assets/img/circleLeft.svg');" (click)="changePage(-1)" [ngClass]="{'disable' : checkLower(-1)}"></div>
     <div class="current-page">{{page + 1}}</div>
-    <div class="button-next" style="background-image: url('/assets/img/circleRight.svg');" (click)="changePage(1)" [ngClass]="{'disable' : checkOver(1)}"></div>
+    <div class="button-next" style="background-image: url('assets/img/circleRight.svg');" (click)="changePage(1)" [ngClass]="{'disable' : checkOver(1)}"></div>
   </div>
 </div>

@@ -16,11 +16,6 @@ body{
     &.active {color: #ffffff;}
 }
 
-@font-face{
-    font-family: 'BrandFont';
-    src: url('/assets/fonts/LeagueSpartan-VariableFont_wght.ttf');
-}
-
 .navbar-brand{
     font-family: 'BrandFont';
     font-size: 2.3rem;
