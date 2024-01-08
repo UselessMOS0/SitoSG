@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path docs --configuration production --base-href https://uselessmos0.github.io/SitoSG/",
+    "build": "ng build --output-path docs --configuration production --base-href /SitoSG/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
