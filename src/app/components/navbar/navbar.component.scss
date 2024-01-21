@@ -88,6 +88,12 @@ ul{
   }
 }
 
+.flag{
+  width: 30px;
+  height: 18px;
+}
+
+
 @media screen and (min-width: 992px) {
   #drop:hover .dropdown{
     visibility: visible;
@@ -109,6 +115,10 @@ ul{
     color: black;
     font-size: large;
     font-weight: 500;
+  }
+  #change{
+    position: absolute;
+    right: 10vw;
   }
   
 }

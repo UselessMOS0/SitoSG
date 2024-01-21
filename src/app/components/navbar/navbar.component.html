@@ -52,25 +52,35 @@
           >
           <div class="dropdown">
             <ul style="list-style-type: none; margin: 0; padding: 0px;">
-              <li>
-                <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']">{{ s.getString("services", "service1") }}</a>
-              </li>
-              <li>
-                <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']">{{ s.getString("services", "service2") }}</a>
-              </li>
-              <li>
-                <a [routerLink]="['/services/3/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']">{{ s.getString("services", "service3") }}</a>
-              </li>
-              <li>
-                <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']">{{ s.getString("services", "service4") }}</a>
-              </li>
+              <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service1") }}
+              </li></a>
+              <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service2") }}
+              </li></a>
+              <a [routerLink]="['/services/3/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service3") }}
+              </li></a>
+              <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service4") }}
+              </li></a>
             </ul>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="batton nav-link" id="unselectable" (click)="s.changeLang()">{{
-            s.language
-          }}</a>
+        <li id="change" class="nav-item">
+          <div class="d-flex flex-row ">
+            <a class="batton nav-link" id="unselectable" (click)="s.changeLang()">{{
+              s.language
+            }}
+            
+            <img class="flag" src="assets\img\FlagIT.svg"  *ngIf="s.language == 'it'; else tname" alt="">
+            <ng-template #tname>
+              <img class="flag" src="assets\img\FlagUK.svg" alt="">
+            </ng-template>
+             
+            </a>
+          </div>
+          
         </li>
       </ul>
     </div>

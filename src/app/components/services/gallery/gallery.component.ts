@@ -27,6 +27,7 @@ export class GalleryComponent {
     if (this.checkLower(num) || this.checkOver(num))
       return;
     this.page += num
+    this.scrollTop()
   }
 
   checkLower(num : number){

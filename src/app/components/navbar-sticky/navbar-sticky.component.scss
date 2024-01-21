@@ -24,6 +24,11 @@
 }
 
 
+.flag{
+  width: 30px;
+  height: 18px;
+}
+
 ul{
   margin-left: 1rem;
   font-size: 1.2em;
@@ -86,6 +91,8 @@ ul{
     border-radius: 5px;
     margin:0;
   }
+  
+
 }
 
 @media screen and (min-width: 992px) {
@@ -109,6 +116,11 @@ ul{
     color: black;
     font-size: large;
     font-weight: 500;
+  }
+  
+  #change{
+    position: absolute;
+    right: 10vw;
   }
   
 }
