@@ -23,16 +23,16 @@
 
 #yo{
   padding-bottom:2px;
-  border-bottom:3px solid #fff;
+  border-bottom:5px solid #fff;
 }
 
 .left{
-  border-right: 2px solid #fff;
+  border-right: 5px solid #fff;
 }
 
 #serv{
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .col-md-6 {
@@ -73,6 +73,17 @@
     opacity: 0.4;
 
   }
+
+  .left{
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+  }
+  .right{
+    border-right: 5px solid #fff;
+    border-left: 5px solid #fff;
+    border-top: 5px solid #fff ;
+  }
+
 }
 
 .obscure:hover .centered {
