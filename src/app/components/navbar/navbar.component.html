@@ -11,12 +11,18 @@
     >
       <span class="navbar-toggler-icon"></span>
     </button>
+    <div id="brand" class="">
+      <a class="brand" [routerLink]="['/']" (click)="scrollTop()">
+        <h1>SAVING GROUP</h1>
+        <p>international freight forwarders</p></a
+      >
+    </div>
 
     <div
       class="collapse navbar-collapse justify-content-md-center p-0"
       id="navbarsExample08"
     >
-      <div class="text-center pt-1">
+      <div id="b" class="text-center pt-1">
         <a class="brand" [routerLink]="['/']" (click)="scrollTop()">
           <h1>SAVING GROUP</h1>
           <p>international freight forwarders</p></a
@@ -46,10 +52,31 @@
         <li class="nav-item" id="drop">
           <a
             class="nav-link"
-            href="#service"
-            [routerLinkActive]="['is-active']"
-            >{{ s.getString("navbar", "service") }}</a
-          >
+            (click)="ani()"
+            
+            >{{ s.getString("navbar", "service") }}
+          </a>
+          <div id="expand-container">
+            <div id="expand-contract" class="collapsed">
+              <ul style="list-style-type: none; margin: 0; padding: 0px;">
+                <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                  {{ s.getString("services", "service1") }}
+                </li></a>
+                <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                  {{ s.getString("services", "service2") }}
+                </li></a>
+                <a [routerLink]="['/services/3/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                  {{ s.getString("services", "service3") }}
+                </li></a>
+                <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                  {{ s.getString("services", "service4") }}
+                </li></a>
+                <a [routerLink]="['/services/5/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                  {{ s.getString("services", "service5") }}
+                </li></a>
+              </ul>
+            </div>
+          </div>
           <div class="dropdown">
             <ul style="list-style-type: none; margin: 0; padding: 0px;">
               <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
@@ -63,6 +90,9 @@
               </li></a>
               <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
                 {{ s.getString("services", "service4") }}
+              </li></a>
+              <a [routerLink]="['/services/5/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service5") }}
               </li></a>
             </ul>
           </div>

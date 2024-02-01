@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { LanguageService } from 'src/app/language.service';
+import * as $ from 'jquery'
 
 @Component({
   selector: 'app-navbar',
@@ -12,5 +13,10 @@ export class NavbarComponent {
   }
   scrollTop() {
     window.scroll(0, 0);
+  }
+  
+  ani(){
+    $('#expand-contract').toggleClass('expanded');
+    $('#expand-contract').toggleClass('collapsed');
   }
 }

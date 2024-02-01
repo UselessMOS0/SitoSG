@@ -2,14 +2,15 @@ export const Lines = {
   it: {
     navbar: {
       home: 'Home',
-      group: 'Il Gruppo',
+      group: 'il Gruppo',
       service: 'Servizi',
     },
     services: {
-      service1: 'Air Freight',
-      service2: 'Sea Freight',
-      service3: 'Trucking',
-      service4: 'Cargo Terminal',
+      service1: 'Project Freight Forwarders',
+      service2: 'Air Freight',
+      service3: 'Sea Freight',
+      service4: 'Trucking',
+      service5: 'Cargo Terminal',
     },
     content1 : {
       title : 'Project Freight Forwarding',
@@ -250,7 +251,7 @@ export const Lines = {
         ]
     },
     content2 : {
-      title : 'Titolo 2',
+      title : 'Air Freight',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
@@ -258,7 +259,7 @@ export const Lines = {
         ]
     },
     content3 : {
-      title : 'Titolo 3',
+      title : 'Sea Freight',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
@@ -266,7 +267,15 @@ export const Lines = {
         ]
     },
     content4 : {
-      title : 'Titolo 4',
+      title : 'Trucking',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      projects : [
+        {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
+         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
+        ]
+    },
+    content5 : {
+      title : 'Cargo Terminal',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
@@ -278,14 +287,15 @@ export const Lines = {
   en: {
     navbar: {
       home: 'Home',
-      group: 'Group',
+      group: 'the Group',
       service: 'Services',
     },
     services: {
-      service1: 'Air Freight',
-      service2: 'Sea Freight',
-      service3: 'Trucking',
-      service4: 'Cargo Terminal',
+      service1: 'Project Freight Forwarders',
+      service2: 'Air Freight',
+      service3: 'Sea Freight',
+      service4: 'Trucking',
+      service5: 'Cargo Terminal',
     },
     content1 : {
       title : 'Project Freight Forwarding',
@@ -526,7 +536,7 @@ export const Lines = {
         ]
     },
     content2 : {
-      title : 'Titolo 2',
+      title : 'Air Freight',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Project Name', date : '22 September 2020',desc_l : 'Long description of the project, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
@@ -534,7 +544,7 @@ export const Lines = {
         ]
     },
     content3 : {
-      title : 'Titolo 3',
+      title : 'Sea Freight',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Project Name', date : '22 September 2020',desc_l : 'Long description of the project, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
@@ -542,11 +552,19 @@ export const Lines = {
         ]
     },
     content4 : {
-      title : 'Titolo 4',
+      title : 'Trucking',
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Project Name', date : '22 September 2020',desc_l : 'Long description of the project, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
          desc_s : 'Project description',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
+        ]
+    },
+    content5 : {
+      title : 'Cargo Terminal',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      projects : [
+        {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
+         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
         ]
     }
   },

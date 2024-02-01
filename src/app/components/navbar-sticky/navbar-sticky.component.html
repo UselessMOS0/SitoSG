@@ -1,57 +1,63 @@
 <nav class="navbar fixed-top navbar-expand-lg topbar" aria-label="Tenth navbar example">
   <div class="container-fluid">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarsExample08"
-      aria-controls="navbarsExample08"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarsExample08"
+    aria-controls="navbarsExample08"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id="brand" class="">
+    <a class="brand" [routerLink]="['/']" (click)="scrollTop()">
+      <h1>SAVING GROUP</h1>
+      <p>international freight forwarders</p></a
     >
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  </div>
 
-    <div
-      class="collapse navbar-collapse justify-content-md-center p-0"
-      id="navbarsExample08"
-    >
-      <div class="text-center pt-1">
-        <a class="brand" [routerLink]="['/']"
-        (click)="scrollTop()">
-          <h1>SAVING GROUP</h1>
-          <p>international freight forwarders</p></a
+  <div
+    class="collapse navbar-collapse justify-content-md-center p-0"
+    id="navbarsExample08"
+  >
+    <div id="b" class="text-center pt-1">
+      <a class="brand" [routerLink]="['/']" (click)="scrollTop()">
+        <h1>SAVING GROUP</h1>
+        <p>international freight forwarders</p></a
+      >
+    </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          (click)="scrollTop()"
+          [routerLink]="['/']"
+          [routerLinkActive]="['is-active']"
+          [routerLinkActiveOptions]="{exact:true}"
+          >{{ s.getString("navbar", "home") }}</a
         >
-      </div>
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            (click)="scrollTop()"
-            [routerLink]="['/']"
-            [routerLinkActive]="['is-active']"
-            [routerLinkActiveOptions]="{exact:true}"
-            >{{ s.getString("navbar", "home") }}</a
-          >
+        
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          (click)="scrollTop()"
+          [routerLink]="['/group']"
+          [routerLinkActive]="['is-active']"
+          >{{ s.getString("navbar", "group") }}</a
+        >
+      </li>
+      <li class="nav-item" id="drop">
+        <a
+          class="nav-link"
+          (click)="ani()"
           
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            (click)="scrollTop()"
-            [routerLink]="['/group']"
-            [routerLinkActive]="['is-active']"
-            >{{ s.getString("navbar", "group") }}</a
-          >
-        </li>
-        <li class="nav-item" id="drop">
-          <a
-            class="nav-link"
-            href="/#service"
-            [routerLinkActive]="['is-active']"
-            >{{ s.getString("navbar", "service") }}</a
-          >
-          <div class="dropdown">
+          >{{ s.getString("navbar", "service") }}
+        </a>
+        <div id="expand-container">
+          <div id="expand-contract" class="collapsed">
             <ul style="list-style-type: none; margin: 0; padding: 0px;">
               <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
                 {{ s.getString("services", "service1") }}
@@ -65,22 +71,48 @@
               <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
                 {{ s.getString("services", "service4") }}
               </li></a>
+              <a [routerLink]="['/services/5/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{ s.getString("services", "service5") }}
+              </li></a>
             </ul>
           </div>
-        </li>
-        <li id="change" class="nav-item">
-          <a class="batton nav-link" id="unselectable" (click)="s.changeLang()" >{{
+        </div>
+        <div class="dropdown">
+          <ul style="list-style-type: none; margin: 0; padding: 0px;">
+            <a [routerLink]="['/services/1/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{ s.getString("services", "service1") }}
+            </li></a>
+            <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{ s.getString("services", "service2") }}
+            </li></a>
+            <a [routerLink]="['/services/3/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{ s.getString("services", "service3") }}
+            </li></a>
+            <a [routerLink]="['/services/4/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{ s.getString("services", "service4") }}
+            </li></a>
+            <a [routerLink]="['/services/5/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{ s.getString("services", "service5") }}
+            </li></a>
+          </ul>
+        </div>
+      </li>
+      <li id="change" class="nav-item">
+        <div class="d-flex flex-row ">
+          <a class="batton nav-link" id="unselectable" (click)="s.changeLang()">{{
             s.language
           }}
+          
           <img class="flag" src="assets\img\FlagIT.svg"  *ngIf="s.language == 'it'; else tname" alt="">
           <ng-template #tname>
             <img class="flag" src="assets\img\FlagUK.svg" alt="">
           </ng-template>
+           
           </a>
-          
-        </li>
-      </ul>
-    </div>
+        </div>
+        
+      </li>
+    </ul>
   </div>
+</div>
 </nav>
-

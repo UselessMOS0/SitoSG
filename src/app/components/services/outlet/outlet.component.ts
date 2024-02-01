@@ -15,7 +15,7 @@ export class OutletComponent implements OnInit{
   ngOnInit(): void {
     this.route.params.subscribe(params => {
       
-      if (!['1','2','3','4'].includes(params['$id'])){
+      if (!['1','2','3','4','5'].includes(params['$id'])){
         this.router.navigate(['services'])
       } 
   });

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, ActivatedRouteSnapshot } from '@angular/router';
 import { LanguageService } from 'src/app/language.service';
 
-export type Myrange = 1 | 2 | 3 | 4
+export type Myrange = 1 | 2 | 3 | 4 | 5
 
 @Component({
   selector: 'app-content',
