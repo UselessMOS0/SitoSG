@@ -8,4 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselComponent implements OnInit { 
   ngOnInit(): void {
   }
+  
+  scrollTop() {
+    window.scroll(0, 0);
+  }
 }
