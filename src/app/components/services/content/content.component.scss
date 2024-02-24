@@ -1,5 +1,5 @@
 .carousel{
-  border: 1px solid black;
+ 
 }
 
 #text{ 
@@ -78,4 +78,37 @@
   box-shadow: none;
   transform: translateY(0);
   transform: translateX(-50%);
+}
+
+.immagini{
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+
+}
+
+.carousel-inner{
+  height: 500px;
+  width: 100%;
+} 
+
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+#carouselExampleAutoplaying{
+  width: 100%;
+}
+
+
+@media screen and (min-width: 1199px) {
+  #cont{
+    display: flex;
+    flex-direction: row;
+  }
+  #carouselExampleAutoplaying{
+    width: 60%;
+  }
 }

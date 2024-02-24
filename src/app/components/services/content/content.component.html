@@ -1,34 +1,31 @@
 
-<div>
-  <div class="container mt-2">
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000">
-      <div class="carousel-inner">
-        <div class="carousel-item" [ngClass]="{'active':i===0}" alt="..." *ngFor="let project of getProjects();let i=index">
-          <img src="{{project.thumbnail}}" class="d-block w-100">
-        </div>
+
+<div class="container mt-2 mb-2 " id="cont">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000" >
+    <div class="carousel-inner" style="border: 1px solid black; height: 500px;">
+      <div class="carousel-item" [ngClass]="{'active':i===0}" alt="..." *ngFor="let project of getProjects();let i=index">
+        <img src="{{project.thumbnail}}" class="d-block w-100" class="immagini">
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
     </div>
   </div>
   <div class="container w-75" >
     <div class="container">
-    <div class="d-flex justify-content-center" id=content>
-      <p id="title">{{getTitle()}}</p>
-      <button id="gallery" (click)="scrollTop()" *ngIf="id <= 4" [routerLink]="['../../1/gallery']">{{s.language == 'it' ? 'Vai alla galleria' : 'Go to gallery'}}</button>
-      <button id="gallery" (click)="scrollTop()" *ngIf="id == 5" [routerLink]="['../gallery']">{{s.language == 'it' ? 'Vai alla galleria' : 'Go to gallery'}}</button>
-      
-
-      <p id="text">
-        {{getText()}}
-      </p>
-      
+      <div class="d-flex justify-content-center" id=content>
+        <p id="title">{{getTitle()}}</p>
+        <button id="gallery" (click)="scrollTop()" *ngIf="id <= 4" [routerLink]="['../../1/gallery']">{{s.language == 'it' ? 'Vai alla galleria' : 'Go to gallery'}}</button>
+        <button id="gallery" (click)="scrollTop()" *ngIf="id == 5" [routerLink]="['../gallery']">{{s.language == 'it' ? 'Vai alla galleria' : 'Go to gallery'}}</button>
+        <p id="text">
+          {{getText()}}
+        </p>
+      </div>
     </div>
-  </div>
+  </div>  
 </div>
