@@ -5,9 +5,7 @@
 
     <div class="images">
       <div id="img" class="img"  style="background-image: url('{{img}}');"></div>
-      <div class="d-flex m-1  " style="flex-wrap: wrap;">
-        <div class="img-selector" *ngFor="let img of getString().images; let i = index" style="background-image: url('{{img}}');" (click)="getImage(i)"></div>
-      </div> 
+       
     </div>
     <div class="d-flex justify-content-center align-self-center " id=content>
       <p id="title">{{getString().name}}</p>
@@ -18,7 +16,9 @@
     </div>
 
   </div>
-    
+  <div class="d-flex m-1  " style="flex-wrap: wrap;">
+    <div class="img-selector" *ngFor="let img of getString().images; let i = index" style="background-image: url('{{img}}');" (click)="getImage(i)"></div>
+  </div>
 </div>
 
 

@@ -1,21 +1,32 @@
-<div class="container ">
-  <div class="d-flex text-decoration-none" *ngFor="let r of getString(); let i = index" style="margin-bottom: 10px; flex-direction: row;">
-    <div *ngIf="(i + (page * 5)) * 2 < max_n + 1" class="d-flex" style="margin-bottom: 10px; flex-direction: column; border: 1px solid black; border-radius: 5px; margin-right: 5px ; width: 50%;">
-      <div class="content">
-        <div class="title">{{getImage((i + (page * 5)) * 2).name}}</div>
+
+  <div id="every" class="d-flex text-decoration-none" *ngFor="let r of getString(); let i = index" style="margin-bottom: 10px; " >
+    
+      <div id="conts" *ngIf="(i + (page * 5)) * 2 < max_n + 1" class="d-flex" style="margin-bottom: 10px; border: 1px solid black; border-radius: 5px; margin-right: 5px ;">
+      
+        <a  (click)="scrollTop()" [routerLink]="['project',(i + (page * 5)) * 2]" class="" style="padding: 0px;">
+          <div class="img" [style.background-image]="'url(' + getImage((i + (page * 5)) * 2).thumbnail + ')'"></div>
+        </a>
+
+        <div class="content">
+          <div class="title">{{getImage((i + (page * 5)) * 2).name}}</div>
+          <div class="desc">{{getImage((i + (page * 5)) * 2).desc_s}}</div>
+        </div>
+        
       </div>
-      <a  (click)="scrollTop()" [routerLink]="['project',(i + (page * 5)) * 2]" class="" style="padding: 0px;">
-        <div class="img" [style.background-image]="'url(' + getImage((i + (page * 5)) * 2).thumbnail + ')'"></div>
-      </a>
-    </div>
-    <div *ngIf="(i + (page * 5)) * 2 < max_n" class="d-flex" style="margin-bottom: 10px; flex-direction: column; border: 1px solid black; border-radius: 5px; width: 50%;">
-      <div class="content">
-        <div class="title">{{getImage((i + (page * 5)) * 2).name}}</div>
+
+
+      <div *ngIf="(i + (page * 5)) * 2 < max_n" class="d-flex" style="margin-bottom: 10px; flex-direction: row; border: 1px solid black; border-radius: 5px;">
+        
+        <a  (click)="scrollTop()" [routerLink]="['project',((i + (page * 5)) * 2) + 1]" class="" style="padding: 0px;">
+          <div class="img" [style.background-image]="'url(' + getImage(((i + (page * 5)) * 2) + 1).thumbnail + ')'"></div>
+        </a>
+        
+        <div class="content">
+          <div class="title">{{getImage(((i + (page * 5)) * 2) + 1).name}}</div>
+          <div class="desc">{{getImage(((i + (page * 5)) * 2) + 1).desc_s}}</div>
+        </div>
+      
       </div>
-      <a  (click)="scrollTop()" [routerLink]="['project',((i + (page * 5)) * 2) + 1]" class="" style="padding: 0px;">
-        <div class="img" [style.background-image]="'url(' + getImage(((i + (page * 5)) * 2) + 1).thumbnail + ')'"></div>
-      </a>
-    </div>
   </div>
 
   <div class="page d-flex align-items-center justify-content-center gap-1">
@@ -27,4 +38,3 @@
     <div class="next-toPage" (click)="changePage(2)" [ngClass]="{'invisible' : checkOver(2)}">{{page + 3}}</div>
     <div class="button-next" style="background-image: url('assets/img/circleRight.svg');" (click)="changePage(1)" [ngClass]="{'disable' : checkOver(1)}"></div>
   </div>
-</div>

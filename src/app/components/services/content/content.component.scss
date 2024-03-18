@@ -8,6 +8,8 @@
   text-wrap: wrap;
   font-family: 'Raleway', sans-serif;
   font-size: larger;
+  align-self: center;
+  width: 70vw;
 }
 
 .first{
@@ -106,9 +108,12 @@
 @media screen and (min-width: 1199px) {
   #cont{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   #carouselExampleAutoplaying{
-    width: 60%;
+    width: 80%;
+    align-self: center;
+  }
+  .immagini{
   }
 }
