@@ -1,5 +1,26 @@
-.carousel{
- 
+#cont{
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  justify-content: center;
+}
+
+.immagini{
+  border: solid #00597a 1px;
+  height: 84vh;
+  width: 58vw;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: -10px;
+  margin-bottom: 70px;
+  margin-right: 20px;
+}
+
+#content2 {
+  display: flex;
+  flex-direction: column;
+  width: 34vw;
+  
 }
 
 #text{ 
@@ -7,9 +28,9 @@
   text-align: center;
   text-wrap: wrap;
   font-family: 'Raleway', sans-serif;
-  font-size: larger;
+  font-size: 19px;
+  font-weight: 500;
   align-self: center;
-  width: 70vw;
 }
 
 .first{
@@ -18,18 +39,16 @@
     
 }
 
-#content{
-  flex-direction: column;
-}
 
 #title {
   position: relative;
   text-align: center;
   text-wrap: wrap;
   font-family: 'Raleway', sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 600;
   margin-bottom: 0px;
+  color: #00597a;
 }
 
 #gallery {
@@ -37,11 +56,11 @@
   left: 50%;
   transform: translateX(-50%);
   appearance: none;
-  background-color: transparent;
-  border: 2px solid #1A1A1A;
+  background-color: #00597a;
+  border: 2px solid #00597a;
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3B3B3B;
+  color: #ffffff;
   cursor: pointer;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 16px;
@@ -69,8 +88,8 @@
 }
 
 #gallery:hover {
-  color: #fff;
-  background-color: #1A1A1A;
+  color: #00597a;
+  background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
   transform: translateX(-50%);
@@ -81,39 +100,30 @@
   transform: translateY(0);
   transform: translateX(-50%);
 }
-
-.immagini{
-  width: 100%;
-  height: 100%;
-  object-position: center;
-  object-fit: cover;
-
+.disabled {
+  visibility: hidden;
 }
 
+
 .carousel-inner{
-  height: 500px;
-  width: 100%;
 } 
 
 .carousel-item {
-  width: 100%;
-  height: 100%;
-}
-
-#carouselExampleAutoplaying{
-  width: 100%;
 }
 
 
-@media screen and (min-width: 1199px) {
+
+@media screen and (max-width: 1199px) {
   #cont{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  #carouselExampleAutoplaying{
-    width: 80%;
-    align-self: center;
+  #img img{
+    width: 90vw;
   }
-  .immagini{
+  #content2 {
+    width: 90vw;
   }
 }

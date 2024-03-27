@@ -21,12 +21,24 @@ export class ContentComponent {
     return this.s.getString(`content${this.id}`,'title') as string
   }
   getText(){
-    return this.s.getString(`content${this.id}`,'text') as string
+    let str = this.s.getString(`content${this.id}`,'text') as string
+    
+    return str.split('/n')
   }
   getProjects():  any {
-    return this.s.getString(`content${this.id}`,'projects')
+    if (this.id < 5) {
+      return this.shuffle(this.s.getString(`content${this.id}`,'projects'))
+    }
+    else {
+      return this.s.getString(`content${this.id}`,'projects')
+    }
+    
   }
   scrollTop() {
     window.scroll(0, 0);
   }
+  shuffle (array: any) { 
+    let sorted = array.sort(() => Math.random() - 0.5); 
+    return sorted
+}; 
 }

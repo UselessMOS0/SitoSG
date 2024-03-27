@@ -252,10 +252,10 @@ export const Lines = {
     },
     content2 : {
       title : 'Air Freight',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: "Membri da decenni della IATA (International Air Transport Association), offriamo alla clientela la perfetta cura delle merci da trasportarsi in esportazione, importazione o “estero su estero” per via aerea, dal singolo cartone ai macchinari più pesanti e voluminosi, dal componente criticamente atteso all'impianto di produzione alla fornitura di arredamento, con un servizio sempre personalizzato al fine di soddisfare una variabilità di esigenze, dalla massima urgenza alla massima economicità del trasporto via aereo./nIn collaborazione con i principali vettori aerei internazionali, gestiamo quotidianamente  spedizioni dirette ed immediate da e per i principali scali commerciali di tutti i continenti./nGrazie ad una capillare rete di corrispondenti internazionali, offriamo il trasporto adatto a tutte le possibili rese commerciali contemplate, fino al servizio completo “Door to Door” quali il Franco Domicilio Sdoganato (DDP) in Esportazione o il Franco Fabbrica (EXW) in Importazione, passando da tutte le vie di mezzo quali FCA / FOB / CFR / DAP.",
       projects : [
-        {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
-         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
+        {$id : 0, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/Airfreight.png', images : ['assets/img/Airfreight.png']},
         ]
     },
     content3 : {
@@ -276,26 +276,22 @@ export const Lines = {
     },
     content5 : {
       title : 'Cargo Terminal',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: 'Il terminal / magazzino è equipaggiato con mezzi di sollevamento a terra (carrelli elevatori) fino a 90 quintali ed una gru (carro ponte) con una portata di 150 quintali./nDisponiamo di ampio spazio coperto e scoperto per lo stoccaggio a terra di merci varie ingombranti o pesanti, e spazio coperto per lo stoccaggio su scaffali di merci con misure e pesi idonei./nIl magazzino dispone di licenza doganale per poter operare lo sdoganamento in procedura semplificata standard in Esportazione, Importazione e Transito./nDispone inoltre di licenza per “Magazzino Doganale Privato” che permette di mantenere le merci allo stato estero senza limiti di tempo, concedendo al cliente di poter ispezionare, movimentare, manipolare, reimballare e ricondizionare le merci e, soprattutto, poter operare lo sdoganamento all’importazione anche su base parziale. La parzializzazione dello sdoganamento all’importazione può essere utile principalmente nel caso in cui un importatore / distributore italiano, che ha acquistato una partita di merce all’estero, dovesse rivenderla parzializzata a diversi clienti. Parzializzando lo sdoganamento non s’incorrerà nell’onere di dover pagare i diritti doganali (Dazi d’importazione ed IVA) all’arrivo per tutta la partita acquistata ma solo della parte venduta / da sdoganare nel momento in cui sia già stata finalizzata la vendita all’acquirente finale./nDisponiamo inoltre di licenza per poter operare una procedura speciale doganale/fiscale di nome “Magazzino Privato Fiscale” che permette agli importatori di usufruire della pratica di “sospensione dell’IVA” all’importazione. La “sospensione dell’IVA” prevede il non versamento dell’IVA al momento dello sdoganamento, facendo rientrare il versamento IVA nella gestione aziendale comune della stessa, beneficiando quindi di una dilazione di pagamento ed eventuale compensazione.',
       projects : [
-        {$id : 7, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/70.jpg', images : ['assets/img/gallery/70.jpg']},
-        {$id : 7, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/60.jpg', images : ['assets/img/gallery/60.jpg']},
-        {$id : 6, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/50.jpg', images : ['assets/img/gallery/50.jpg']},
-        {$id : 5, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/40.jpg', images : ['assets/img/gallery/40.jpg']},
-        {$id : 4, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/30.jpg', images : ['assets/img/gallery/30.jpg']},
-        {$id : 3, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/20.jpg', images : ['assets/img/gallery/20.jpg']},
-        {$id : 2, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/15.jpg', images : ['assets/img/gallery/15.jpg']},
-        {$id : 1, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/gallery/10.JPG', images : ['assets/img/gallery/10.JPG']},
         {$id : 0, name : '', date : '',desc_l : '',
          desc_s : '',thumbnail : 'assets/img/gallery/05.jpg', images : ['assets/img/gallery/05.jpg']},
+        {$id : 1, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/10.JPG', images : ['assets/img/gallery/10.JPG']},
+        {$id : 2, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/20.jpg', images : ['assets/img/gallery/20.jpg']},
+        {$id : 3, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/30.jpg', images : ['assets/img/gallery/30.jpg']},
+        {$id : 4, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/40.jpg', images : ['assets/img/gallery/40.jpg']},
+        {$id : 5, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/15.jpg', images : ['assets/img/gallery/15.jpg']},
+        {$id : 6, name : '', date : '',desc_l : '',
+         desc_s : '',thumbnail : 'assets/img/gallery/70.jpg', images : ['assets/img/gallery/70.jpg']}
         ]
     }
     
@@ -553,7 +549,7 @@ export const Lines = {
     },
     content2 : {
       title : 'Air Freight',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: 'As IATA (International Air Transport Association) member since decades, we provide to our clients the best care of the goods to be transported in Import or Export by air, from the single carton to the heavier and bulky machinery, from the component critically needed at a production plant to the supply of furniture, with a service that is always customized to meet the needs of variability, from the highest priority to the cheapest possible cost of the air transport./nIn collaboration with the leading international air carriers we operate daily direct / immediate shipments to and from the main commercial airports of all continents./nThanks to an extensive network of international agents we offer suitable transportation for all possible sales terms covered, up to the full “Door to Door” service such as the Delivery Duty Paid (DDP) in export or Ex Works (EXW) in import, going through all others incoterms in between such as FCA / FOB / CFR / DAP.',
       projects : [
         {$id : 0, name : 'Project Name', date : '22 September 2020',desc_l : 'Long description of the project, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
          desc_s : 'Project description',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
@@ -577,7 +573,7 @@ export const Lines = {
     },
     content5 : {
       title : 'Cargo Terminal',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: 'The terminal / warehouse is equipped with fork lifts up to 9 MTons capacity and a travelling crane of 15 MTons capacity. We have space indoor and outdoor to store bulky or heavy cargo on the ground and indoor space to store suitable cargo on racks./nThe warehouse is licensed to operate regular customs clearance in Export, Import and Transit and a special license as “Customs Private Bonded Warehouse”/nto keep the goods in a foreign status with no time limit, allowing the customer to inspect, handle, manipulate, repack and recondition the goods before import customs clearance and, above all, allowing import customs clearing on a partial basis. The partial clearing is very useful in case the importer resells the product to different final buyers and doesn’t want to face the payment of import duty and taxes (VAT) for the whole goods to be imported at time of arrival. In fact any single final buyer’s order can be cleared at the time the transaction is finalized.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
          desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
