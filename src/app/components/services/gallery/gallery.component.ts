@@ -28,6 +28,8 @@ export class GalleryComponent {
   }
 
   getImage(n : number) : any{
+    console.log('id = ' ,this.id, 'N = ', n)
+    console.log(this.s.getString(`content${this.id}`,'projects'))
     return this.s.getString(`content${this.id}`,'projects')[n]
   }
 

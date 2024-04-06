@@ -7,11 +7,10 @@
 
 .immagini{
   border: solid #00597a 1px;
-  height: 84vh;
-  width: 58vw;
-  object-fit: cover;
+  height: 70vh;
+  width: 40vw;
+  object-fit:cover;
   margin-top: 20px;
-  margin-left: -10px;
   margin-bottom: 70px;
   margin-right: 20px;
 }
@@ -20,7 +19,8 @@
   display: flex;
   flex-direction: column;
   width: 34vw;
-  
+  justify-content: center;
+  margin-left: 10px;
 }
 
 #text{ 
@@ -41,6 +41,7 @@
 
 
 #title {
+  margin-top: 32px;
   position: relative;
   text-align: center;
   text-wrap: wrap;
@@ -120,10 +121,18 @@
     justify-content: center;
     align-items: center;
   }
-  #img img{
+  #title {
+    margin-top: 0px;
+  }
+  .immagini{
     width: 90vw;
+    height: 450px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 0px;
   }
   #content2 {
     width: 90vw;
+    margin-left: 0px;
   }
 }

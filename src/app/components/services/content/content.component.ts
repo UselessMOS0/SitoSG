@@ -27,7 +27,13 @@ export class ContentComponent {
   }
   getProjects():  any {
     if (this.id < 5) {
-      return this.shuffle(this.s.getString(`content${this.id}`,'projects'))
+      console.log(this.s.getString(`content${this.id}`,'projects'))
+      let unshuffled = this.s.getString(`content${this.id}`,'projects')
+      console.log('1' ,unshuffled)
+      let shuffled = this.shuffle(unshuffled)
+      console.log('2' ,unshuffled)
+      return shuffled
+  
     }
     else {
       return this.s.getString(`content${this.id}`,'projects')

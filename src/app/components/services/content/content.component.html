@@ -1,6 +1,7 @@
 
 
 
+<p id="title">{{getTitle()}}</p>
 <div id="cont">
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000" >
     <div class="carousel-inner">
@@ -18,7 +19,6 @@
     </div>
   </div>
   <div id=content2>
-    <p id="title">{{getTitle()}}</p>
     
     <p class="text" *ngFor="let t of getText()">
       {{t}}

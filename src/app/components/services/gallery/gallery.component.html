@@ -4,7 +4,8 @@
       <div id="conts" *ngIf="(i + (page * 5)) * 2 < max_n + 1" class="d-flex" style="margin-bottom: 10px; border: 1px solid black; border-radius: 5px; margin-right: 5px ;">
       
         <a  (click)="scrollTop()" [routerLink]="['project',(i + (page * 5)) * 2]" class="" style="padding: 0px;">
-          <div class="img" [style.background-image]="'url(' + getImage((i + (page * 5)) * 2).thumbnail + ')'"></div>
+          <div class="img" [style.background-image]="'url(' + getImage((i + (page * 5)) * 2).thumbnail + ')'">
+            {{(i + (page * 5)) * 2}}</div>
         </a>
 
         <div class="content">

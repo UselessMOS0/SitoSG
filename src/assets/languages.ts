@@ -13,7 +13,7 @@ export const Lines = {
       service5: 'Cargo Terminal',
     },
     content1 : {
-      title : 'Project Freight Forwarding',
+      title : 'Project Freight',
       text: 'Italiano Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 75, name : 'November - December 2022', date : '2022',desc_l : 'Multimodal transportation up to Rotterdam (road trailer + river barge), loading onto vessel and sea transportation from Rotterdam to Akureyri port (Iceland) of 1 x Transformer weighting 93 tons.',
@@ -310,7 +310,7 @@ export const Lines = {
       service5: 'Cargo Terminal',
     },
     content1 : {
-      title : 'Project Freight Forwarding',
+      title : 'Project Freight',
       text: ' Inglese Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 75, name : 'November - December 2022', date : '2022',desc_l : 'Multimodal transportation up to Rotterdam (road trailer + river barge), loading onto vessel and sea transportation from Rotterdam to Akureyri port (Iceland) of 1 x Transformer weighting 93 tons.',
