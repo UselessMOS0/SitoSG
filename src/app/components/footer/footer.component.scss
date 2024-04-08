@@ -6,16 +6,16 @@
   
 
   background-color: #00597a;
-  padding: 7px;
+  padding: 5px;
   color: white;
   
 
 
   h5{
-    margin-top: 10px;
+    margin-top: 0px;
   }
   h6{
-    margin: 0px 10px;
+    margin: 0px 0px;
   }
   ul{
     text-align: left;
@@ -28,11 +28,17 @@
   a{
     color: #ffffff;
   }
+  p{
+    margin: 0
+  }
 
   img{
-    width: 700px;
+    margin-left: 10px;
+    width: 60vw;
     max-height: 150px;
     min-width: 300px;
+    max-width: 700px;
+
   }
 }
 
@@ -41,9 +47,10 @@
   .footer div{
     flex-direction: column;
     img{
+      margin-left: 0px;
+      margin-top: 5px;
       width: 100%;
       height: auto;
-      min-width: 300px;
     }
     align-items: center;
   }
