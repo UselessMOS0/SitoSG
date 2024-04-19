@@ -1,21 +1,27 @@
-
-
-
-
 <div id="cont">
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false" data-bs-interval="4000" >
-    <div class="carousel-inner">
-      <div class="carousel-item" [ngClass]="{'active':i===0}" alt="..." *ngFor="let project of getProjects();let i=index" >
-        <img src="{{project.thumbnail}}" class="d-block w-100" class="immagini">
-      </div>
+  <div id="carouselExampleAutoplaying">
+    <div class="carous">
+      <img src="{{ nextImage }}" class="d-block w-100" class="immagini next" />
+      <img
+        src="{{ currentImage }}"
+        #current
+        class="d-block w-100"
+        class="immagini current"
+      />
     </div>
   </div>
-  <div id=content2>
-    <p id="title">{{getTitle()}}</p>
+  <div id="content2">
+    <p id="title">{{ getTitle() }}</p>
     <p class="text" *ngFor="let t of getText()">
-      {{t}}
+      {{ t }}
     </p>
-    <button id="gallery" (click)="scrollTop()" *ngIf="id <= 4" [routerLink]="['../../1/gallery']">{{s.language == 'it' ? 'Vai alla galleria' : 'Go to gallery'}}</button>
+    <button
+      id="gallery"
+      (click)="scrollTop()"
+      *ngIf="id <= 4"
+      [routerLink]="['../../1/gallery']"
+    >
+      {{ s.language == "it" ? "Vai alla galleria" : "Go to gallery" }}
+    </button>
   </div>
-
 </div>

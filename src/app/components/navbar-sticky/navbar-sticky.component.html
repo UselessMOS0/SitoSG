@@ -99,9 +99,8 @@
       </li>
       <li id="change" class="nav-item">
         <div class="d-flex flex-row ">
-          <a class="batton nav-link" id="unselectable" (click)="s.changeLang()">{{
-            s.language
-          }}
+          <a class="batton nav-link" id="unselectable" (click)="s.changeLang()">
+            
           
           <img class="flag" src="assets\img\FlagIT.svg"  *ngIf="s.language == 'it'; else tname" alt="">
           <ng-template #tname>
