@@ -18,7 +18,7 @@
     <button
       id="gallery"
       (click)="scrollTop()"
-      *ngIf="id <= 4"
+      *ngIf="id == 1"
       [routerLink]="['../../1/gallery']"
     >
       {{ s.language == "it" ? "Vai alla galleria" : "Go to gallery" }}
