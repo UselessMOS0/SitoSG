@@ -1,3 +1,4 @@
+<div id="cont3">
 <div id="cont">
   <div id="carouselExampleAutoplaying">
     <div class="carous">
@@ -15,13 +16,50 @@
     <p class="text" *ngFor="let t of getText()">
       {{ t }}
     </p>
-    <button
-      id="gallery"
-      (click)="scrollTop()"
-      *ngIf="id == 1"
-      [routerLink]="['../../1/gallery']"
-    >
-      {{ s.language == "it" ? "Vai alla galleria" : "Go to gallery" }}
-    </button>
+      <div *ngIf="id==1 && s.language == 'it'" class="text">
+        <br>
+      <p style="text-decoration: underline; font-weight: 500;">SERVIZI PRICIPALI:</p>
+      <p>PROJECT FORWARDING <br>
+      NOLEGGIO NAVI / AEREI <br>
+      PIANI DI STIVAGGIO <br>
+      OPERAZONI DI CARICO <br>
+      FISSAGGIO DELLE MERCI <br>
+      ISPEZIONI TECNICHE <br>
+      OPERAZIONI DOGANALI <br>
+      MAGAZZINAGGI E DEPOSITI <br>
+      IMBALLAGGIO <br>
+      GESTIONE DOCUMENTALE <br>
+      MANAGEMENT REPORTS</p>
+      <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti."><button id="gallery2">CONTATTATECI</button></a>
+      </div>
+      <div *ngIf="id==1 && s.language == 'en'" class="text">
+        <br>
+      <p style="text-decoration: underline; font-weight: 500;">MAJOR SERVICES:</p>
+      <p>PROJECT FORWARDING <br>
+        SEA / AIR CHARTERING <br>
+        STOWAGE PLANS <br>
+        LOADING OPERATIONS <br>
+        LASHING AND SECURING <br>
+        MARINE SURVEYS <br>
+        CUSTOMS CLEARANCE <br>
+        WAREHOUSING & STORAGE <br>
+        EXPORT PACKING <br>
+        DOCUMENTS MANAGEMENT <br>
+        EXPEDITING <br>
+        MANAGEMENT REPORTS</p>
+        <a href="mailto:ssf@savingroup.com?subject=Contact from SG website Project page."><button id="gallery2">CONTACT US</button></a>
+      </div>
+    
+    
   </div>
+ 
+  </div>
+  <button
+  id="gallery"
+  (click)="scrollTop()"
+  *ngIf="id == 1"
+  [routerLink]="['../../1/gallery']"
+>
+  {{ s.language == "it" ? "Vai alla galleria" : "Go to gallery" }}
+</button>
 </div>

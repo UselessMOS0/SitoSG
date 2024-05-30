@@ -14,7 +14,7 @@ export const Lines = {
     },
     content1 : {
       title : 'Project Freight',
-      text: 'Italiano Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: 'Con alle spalle 60 anni di esperienza nel settore, siamo orgogliosi di affermare, senza il timore di smentita, di rappresentare una delle maggiori organizzazioni Italiane dedicate in maniera esclusiva alla progettazione, esecuzione e gestione di spedizioni di impianti industriali, e merci di dimensioni e pesi eccezionali. industriali.',
       projects : [
         {$id : 75, name : 'November - December 2022', date : '2022',desc_l : 'Multimodal transportation up to Rotterdam (road trailer + river barge), loading onto vessel and sea transportation from Rotterdam to Akureyri port (Iceland) of 1 x Transformer weighting 93 tons.',
         desc_s : 'Multimodal transportation, loading onto vessel and sea transportation of 1 x Transformer weighting 93 tons.', thumbnail : 'assets/img/TaminixAkureyri-22-3129/Image1.jpeg', images : ['assets/img/TaminixAkureyri-22-3129/Image1.jpeg','assets/img/TaminixAkureyri-22-3129/318494273_10229557294267045_8158013296805742996_n.jpg','assets/img/TaminixAkureyri-22-3129/318495405_10229557296627104_2284469715248138338_n.jpg','assets/img/TaminixAkureyri-22-3129/Image3.jpeg']},
@@ -255,7 +255,7 @@ export const Lines = {
       text: "Membri da decenni della IATA (International Air Transport Association), offriamo alla clientela la perfetta cura delle merci da trasportarsi in esportazione, importazione o “estero su estero” per via aerea, dal singolo cartone ai macchinari più pesanti e voluminosi, dal componente criticamente atteso all'impianto di produzione alla fornitura di arredamento, con un servizio sempre personalizzato al fine di soddisfare una variabilità di esigenze, dalla massima urgenza alla massima economicità del trasporto via aereo./nIn collaborazione con i principali vettori aerei internazionali, gestiamo quotidianamente  spedizioni dirette ed immediate da e per i principali scali commerciali di tutti i continenti./nGrazie ad una capillare rete di corrispondenti internazionali, offriamo il trasporto adatto a tutte le possibili rese commerciali contemplate, fino al servizio completo “Door to Door” quali il Franco Domicilio Sdoganato (DDP) in Esportazione o il Franco Fabbrica (EXW) in Importazione, passando da tutte le vie di mezzo quali FCA / FOB / CFR / DAP.",
       projects : [
         {$id : 0, name : '', date : '',desc_l : '',
-         desc_s : '',thumbnail : 'assets/img/Airfreight.png', images : ['assets/img/Airfreight.png']},
+         desc_s : '',thumbnail : 'assets/img/AirHome.jpg', images : ['assets/img/Airfreight.png']},
         ]
     },
     content3 : {
@@ -263,7 +263,7 @@ export const Lines = {
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
-         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
+         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/SeaHome.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
         ]
     },
     content4 : {
@@ -271,7 +271,7 @@ export const Lines = {
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
       projects : [
         {$id : 0, name : 'Nome Progetto', date : '22 Settembre 2020',desc_l : 'Lunga descrizione del progetto, ciao sono una descrizione e sono lunga, abababab abababb abababb abababab babababa babdjhahdj ajdja kduii u8i828  ddjkajdk uajdkajd kajdk jadlkjalkdj lkjalkdjlkaj lkajdlk jlkajdlk jlkajdlkj lkajdlk ajlkajdl kjal lkalkdjlka lka dlklka ldklkaj dlklkaj dlklkaj dlkjlk jlka jlakdj lka jalk kajlkakldkajd lkdkld lkalak ldkjallk djlkdslkdjlk lka lklklkklsjd klalk jdklsjdkllkajd lk slkdsidpipo oia iouaoiduaoiduoiaud oiaduoiau oisudoiu  sflksljkfalk dmnsf ,msfkjskjfkjsfkjsfkj lkslkflksj poiafplkdajlk alk aklfjlkjaflkjadflkjlk lkasdflklkasdflklkadsflklkads fjlkda jlkfj alkdsfjlkajflkadj flkadj lkj',
-         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/1.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
+         desc_s : 'Descrizione progetto ',thumbnail : 'assets/img/TruckHome.jpg', images : ['assets/img/1.jpg','assets/img/2.jpg','assets/img/3.jpg','assets/img/4.jpg','assets/img/3.jpg']},
         ]
     },
     content5 : {
@@ -311,7 +311,7 @@ export const Lines = {
     },
     content1 : {
       title : 'Project Freight',
-      text: ' Inglese Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elit metus, tincidunt sit amet luctus vitae, scelerisque ac turpis. Duis accumsan blandit quam sit amet eleifend. Donec sodales at arcu id gravida. Cras quis urna tellus. Mauris eu massa nunc. Aliquam et convallis tellus, in congue nulla. Cras rutrum, diam quis porttitor vulputate, eros elit finibus risus, eget bibendum lectus dui eu nunc. Mauris mauris ex, fringilla eget leo non, finibus gravida metus. Suspendisse varius dignissim imperdiet. Nullam volutpat purus magna, non tincidunt justo sodales quis. Ut nibh dui, pretium quis augue eget, tristique bibendum magna. Nullam lacinia ex ac dignissim scelerisque. Morbi posuere efficitur mattis.',
+      text: 'After 60 years of experience in this industry, we can proudly state without doubts that we are amongst the largest organizations available in Italy to focus and specialize exclusively in the forwarding of industrial plants, heavy lift and overgauged cargoes.',
       projects : [
         {$id : 75, name : 'November - December 2022', date : '2022',desc_l : 'Multimodal transportation up to Rotterdam (road trailer + river barge), loading onto vessel and sea transportation from Rotterdam to Akureyri port (Iceland) of 1 x Transformer weighting 93 tons.',
         desc_s : 'Multimodal transportation, loading onto vessel and sea transportation of 1 x Transformer weighting 93 tons.', thumbnail : 'assets/img/1996-CollectionYear1996/96O1.JPG', images : ['assets/img/1996-CollectionYear1996/96O1.JPG','assets/img/1996-CollectionYear1996/96O2.JPG']},
