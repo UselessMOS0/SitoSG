@@ -12,42 +12,71 @@
     </div>
   </div>
   <div id="content2">
-    <p id="title">{{ getTitle() }}</p>
+    <div *ngIf="id==2" style="width: 100%; position: relative; ">
+      <p id="title2">{{ getTitle() }}</p>
+      <a *ngIf="s.language=='it'" href="mailto:air-sales@savingroup.com?subject=Contatto dal sito SG pagina Air Freight." class="contact-btn2"><span>Contattateci</span></a>
+      <a *ngIf="s.language=='en'" href="mailto:air-sales@savingroup.com?subject=Contact from SG website Air Freight page" class="contact-btn2"><span>Contact us</span></a>
+    </div>
+    <p id="title" *ngIf="id!=2">{{ getTitle() }}</p>
     <p class="text" *ngFor="let t of getText()">
       {{ t }}
     </p>
+    <div *ngIf="id==5" style="width: 100%; position: relative;">
+      <a *ngIf="s.language=='it'" href="mailto:air-sales@savingroup.com?subject=Contatto dal sito SG pagina Air Freight." class="contact-btn3"><span>Contattateci</span></a>
+      <a *ngIf="s.language=='en'" href="mailto:air-sales@savingroup.com?subject=Contact from SG website Air Freight page" class="contact-btn3"><span>Contact us</span></a>
+    </div>
       <div *ngIf="id==1 && s.language == 'it'" class="text">
         <br>
-      <p style="text-decoration: underline; font-weight: 500;">SERVIZI PRICIPALI:</p>
-      <p>PROJECT FORWARDING <br>
-      NOLEGGIO NAVI / AEREI <br>
-      PIANI DI STIVAGGIO <br>
-      OPERAZONI DI CARICO <br>
-      FISSAGGIO DELLE MERCI <br>
-      ISPEZIONI TECNICHE <br>
-      OPERAZIONI DOGANALI <br>
-      MAGAZZINAGGI E DEPOSITI <br>
-      IMBALLAGGIO <br>
-      GESTIONE DOCUMENTALE <br>
-      MANAGEMENT REPORTS</p>
-      <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti."><button id="gallery2">CONTATTATECI</button></a>
+        <div>
+          <p style="text-decoration: underline; font-weight: 500;">SERVIZI PRICIPALI:</p>
+          <p>PROJECT FORWARDING <br>
+          NOLEGGIO NAVI / AEREI <br>
+          PIANI DI STIVAGGIO <br>
+          OPERAZONI DI CARICO <br>
+          FISSAGGIO DELLE MERCI <br>
+          ISPEZIONI TECNICHE <br>
+          OPERAZIONI DOGANALI <br>
+          MAGAZZINAGGI E DEPOSITI <br>
+          IMBALLAGGIO <br>
+          GESTIONE DOCUMENTALE <br>
+          MANAGEMENT REPORTS</p>
+        </div>
+        <div style="float: right; display: flex; flex-direction: column; position: relative; width: 120px; align-items: center;">
+          <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti." class="contact-btn"><span>Contattateci</span></a>
+          <button
+            id="gallery"
+            (click)="scrollTop()"
+            [routerLink]="['../../1/gallery']"
+            >
+            Galleria
+          </button></div>
+     
       </div>
-      <div *ngIf="id==1 && s.language == 'en'" class="text">
+      <div *ngIf="id==1 && s.language == 'en'" class="text" style="display: flex; flex-direction: row; gap: 15%;">
         <br>
-      <p style="text-decoration: underline; font-weight: 500;">MAJOR SERVICES:</p>
-      <p>PROJECT FORWARDING <br>
-        SEA / AIR CHARTERING <br>
-        STOWAGE PLANS <br>
-        LOADING OPERATIONS <br>
-        LASHING AND SECURING <br>
-        MARINE SURVEYS <br>
-        CUSTOMS CLEARANCE <br>
-        WAREHOUSING & STORAGE <br>
-        EXPORT PACKING <br>
-        DOCUMENTS MANAGEMENT <br>
-        EXPEDITING <br>
-        MANAGEMENT REPORTS</p>
-        <a href="mailto:ssf@savingroup.com?subject=Contact from SG website Project page."><button id="gallery2">CONTACT US</button></a>
+        <div>
+          <p style="text-decoration: underline; font-weight: 500;">SERVIZI PRICIPALI:</p>
+          <p>PROJECT FORWARDING <br>
+          NOLEGGIO NAVI / AEREI <br>
+          PIANI DI STIVAGGIO <br>
+          OPERAZONI DI CARICO <br>
+          FISSAGGIO DELLE MERCI <br>
+          ISPEZIONI TECNICHE <br>
+          OPERAZIONI DOGANALI <br>
+          MAGAZZINAGGI E DEPOSITI <br>
+          IMBALLAGGIO <br>
+          GESTIONE DOCUMENTALE <br>
+          MANAGEMENT REPORTS</p>
+        </div>
+        <div style="float: right; display: flex; flex-direction: column; position: relative; width: 120px; align-items: center;">
+          <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti." class="contact-btn"><span>Contact us</span></a>
+          <button
+            id="gallery"
+            (click)="scrollTop()"
+            [routerLink]="['../../1/gallery']"
+            >
+            Gallery
+          </button></div>
       </div>
     
     
@@ -55,12 +84,4 @@
   
   </div>
   
-  <button
-  id="gallery"
-  (click)="scrollTop()"
-  *ngIf="id == 1"
-  [routerLink]="['../../1/gallery']"
->
-  {{ s.language == "it" ? "Vai alla galleria" : "Go to gallery" }}
-</button>
 </div>

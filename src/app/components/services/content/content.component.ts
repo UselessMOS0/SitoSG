@@ -13,6 +13,7 @@ export type Myrange = 1 | 2 | 3 | 4 | 5;
 export class ContentComponent implements AfterViewInit {
   id!: Myrange;
 
+  projects!:any;
   currentImage: string = '';
   nextImage: string = '';
 
@@ -20,9 +21,10 @@ export class ContentComponent implements AfterViewInit {
 
   subscription!: Subscription;
 
+  
+
   updateCarousel() {
-    const projects = this.s.getString(`content${this.id}`, 'projects');
-    const proj = projects[Math.floor(Math.random() * projects.length)];
+    const proj = this.projects[Math.floor(Math.random() * this.projects.length)].thumbnail;
     const source = interval(5);
     let animationSubscr!: Subscription;
 
@@ -33,8 +35,9 @@ export class ContentComponent implements AfterViewInit {
       this.currentImg.nativeElement.style.opacity = op.toString();
       if (op <= 0) {
         this.currentImage = this.nextImage;
+        console.log(this.currentImage)
         // @ts-ignore
-        this.nextImage = proj.thumbnail;
+        this.nextImage = proj;
         this.currentImg.nativeElement.style.opacity = '1';
         animationSubscr.unsubscribe();
       }
@@ -42,13 +45,13 @@ export class ContentComponent implements AfterViewInit {
   }
 
   loadInitialImages() {
-    const projects = this.s.getString(`content${this.id}`, 'projects');
+    this.projects = this.s.getString(`content${this.id}`, 'projects');
     this.currentImage =
       // @ts-ignore
-      projects[Math.floor(Math.random() * projects.length)].thumbnail;
+      this.projects[Math.floor(Math.random() * this.projects.length)].thumbnail;
     this.nextImage =
       // @ts-ignore
-      projects[Math.floor(Math.random() * projects.length)].thumbnail;
+      this.projects[Math.floor(Math.random() * this.projects.length)].thumbnail;
   }
 
   ngAfterViewInit(): void {
