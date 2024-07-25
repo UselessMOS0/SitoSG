@@ -17,14 +17,20 @@
       <a *ngIf="s.language=='it'" href="mailto:air-sales@savingroup.com?subject=Contatto dal sito SG pagina Air Freight." class="contact-btn bottom"><span>Contattateci</span></a>
       <a *ngIf="s.language=='en'" href="mailto:air-sales@savingroup.com?subject=Contact from SG website Air Freight page" class="contact-btn bottom"><span>Contact us</span></a>
     </div>
-    <p id="title" *ngIf="id!=2">{{ getTitle() }}</p>
+    <div *ngIf="id==5" style="width: 100%; position: relative;">
+      <p id="title2">{{ getTitle() }}</p>
+      <a *ngIf="s.language=='it'" href="mailto:logistic@savingroup.com?subject=Contatto dal sito GS pagina Cargo Terminal" class="contact-btn bottom"><span>Contattateci</span></a>
+      <a *ngIf="s.language=='en'" href="mailto:logistic@savingroup.com?subject=Contact from SG website Cargo Terminal page" class="contact-btn bottom"><span>Contact us</span></a>
+    </div>
+    <div *ngIf="id==1" style="width: 100%; position: relative;">
+      <p id="title2">{{ getTitle() }}</p>
+      <a *ngIf="s.language=='it'" href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti" class="contact-btn bottom"><span>Contattateci</span></a>
+      <a *ngIf="s.language=='en'" href="mailto:ssf@savingroup.com?subject=Contact from SG website Project page" class="contact-btn bottom"><span>Contact us</span></a>
+    </div>
+    <p id="title" *ngIf="id!=2 && id!=1 && id!=5">{{ getTitle() }}</p>
     <p class="text" *ngFor="let t of getText()">
       {{ t }}
     </p>
-    <div *ngIf="id==5" style="width: 100%; position: relative;">
-      <a *ngIf="s.language=='it'" href="mailto:air-sales@savingroup.com?subject=Contatto dal sito SG pagina Air Freight." class="contact-btn cargo"><span>Contattateci</span></a>
-      <a *ngIf="s.language=='en'" href="mailto:air-sales@savingroup.com?subject=Contact from SG website Air Freight page" class="contact-btn cargo"><span>Contact us</span></a>
-    </div>
       <div *ngIf="id==1 && s.language == 'it'" class="text">
         <br>
         <div>
@@ -42,11 +48,10 @@
           MANAGEMENT REPORTS</p>
         </div>
         <div style="float: right; display: flex; flex-direction: column; position: relative; width: 120px; align-items: center;">
-          <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti." class="contact-btn right"><span>Contattateci</span></a>
           <button
             id="gallery"
             (click)="scrollTop()"
-            [routerLink]="['../../1/gallery']"
+            [routerLink]="['../../1/gallery/0']"
             >
             Galleria
           </button></div>
@@ -69,11 +74,10 @@
           MANAGEMENT REPORTS</p>
         </div>
         <div style="float: right; display: flex; flex-direction: column; position: relative; width: 120px; align-items: center;">
-          <a href="mailto:ssf@savingroup.com?subject=Contatto dal sito GS pagina Progetti." class="contact-btn right"><span>Contact us</span></a>
           <button
             id="gallery"
             (click)="scrollTop()"
-            [routerLink]="['../../1/gallery']"
+            [routerLink]="['../../1/gallery/0']"
             >
             Gallery
           </button></div>

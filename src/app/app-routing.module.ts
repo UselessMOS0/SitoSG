@@ -13,13 +13,13 @@ const routes: Routes = [
   {path: 'group', component: GroupComponent},
   {path: 'services/:$id', component: OutletComponent,
   children: [
-    {path: 'gallery' , component : GalleryComponent},
-    {path: 'gallery/project/:n_project', component : ProjectComponent},
+    {path: 'gallery/:page' , component : GalleryComponent},
+    {path: 'gallery/:page/project/:n_project', component : ProjectComponent},
     {path: 'content', component : ContentComponent},
-    {path:'**',redirectTo:'content',pathMatch: 'full'}
+    //{path:'**',redirectTo:'content',pathMatch: 'full'}
   ]
   },
-  {path:'**',redirectTo:'/',pathMatch: 'full'}
+  //{path:'**',redirectTo:'/',pathMatch: 'full'}
 ];
 
 

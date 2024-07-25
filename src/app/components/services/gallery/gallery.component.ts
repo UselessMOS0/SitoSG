@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, ParamMap, Params, Route, Router } from '@angular/router';
 import { LanguageService } from 'src/app/language.service';
 import { Myrange } from '../content/content.component';
 
@@ -14,13 +14,13 @@ export class GalleryComponent {
   rows : number = 5
   max_n !: number
 
-  constructor(public s : LanguageService,private route: ActivatedRoute){
+  constructor(public s : LanguageService,private route: ActivatedRoute,private router: Router){
     this.route.params.subscribe(params => {
         this.id = +params['$id'] as Myrange
+        this.page = +params['page']
+        console.log(route)
     })
     this.max_n = this.s.getString(`content${this.id}`,'projects').length - 1
-    console.log(this.max_n)
-    console.log(this.s.getString(`content${this.id}`,'projects')[this.max_n])
   }
 
   getString() :  any{
@@ -28,16 +28,13 @@ export class GalleryComponent {
   }
 
   getImage(n : number) : any{
-    console.log('id = ' ,this.id, 'N = ', n)
-    console.log(this.s.getString(`content${this.id}`,'projects'))
     return this.s.getString(`content${this.id}`,'projects')[n]
   }
 
   changePage(num : number){
     if (this.checkLower(num) || this.checkOver(num))
       return;
-    this.page += num
-    this.scrollTop()
+    this.router.navigate(['../gallery',3])
   }
 
   checkLower(num : number){

@@ -13,6 +13,7 @@ export class ProjectComponent implements AfterViewInit{
   id !: Myrange
   n_project !: number
   img !: string
+  page !: any
   constructor(public s : LanguageService,private route: ActivatedRoute){
     this.route.params.subscribe(params => {
         this.id = +params['$id'] as Myrange
