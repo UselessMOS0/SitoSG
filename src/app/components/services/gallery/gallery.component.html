@@ -33,10 +33,10 @@
 
   <div class="page d-flex align-items-center justify-content-center gap-1">
     <div class="button-prev" style="background-image: url('assets/img/circleLeft.svg');" (click)="changePage(-1)" [ngClass]="{'disable' : checkLower(-1)}"></div>
-    <a class="next-toPage" [routerLink]="['../../gallery',page-2]" [ngClass]="{'invisible' : checkLower(-2)}">{{page - 1}}</a>
-    <a class="next-toPage" [routerLink]="['../../gallery',page-1]" [ngClass]="{'invisible' : checkLower(-1)}">{{page}}</a>
+    <a class="next-toPage" [routerLink]="['../../gallery',page-2]" (click)="scrollTop()" [ngClass]="{'invisible' : checkLower(-2)}">{{page - 1}}</a>
+    <a class="next-toPage" [routerLink]="['../../gallery',page-1]" (click)="scrollTop()" [ngClass]="{'invisible' : checkLower(-1)}">{{page}}</a>
     <div class="current-page">{{page + 1}}</div>
-    <a class="next-toPage" [routerLink]="['../../gallery',page+1]" [ngClass]="{'invisible' : checkOver(1)}">{{page + 2}}</a>
-    <a class="next-toPage" [routerLink]="['../../gallery',page+2]" [ngClass]="{'invisible' : checkOver(2)}">{{page + 3}}</a>
+    <a class="next-toPage" [routerLink]="['../../gallery',page+1]" (click)="scrollTop()" [ngClass]="{'invisible' : checkOver(1)}">{{page + 2}}</a>
+    <a class="next-toPage" [routerLink]="['../../gallery',page+2]" (click)="scrollTop()" [ngClass]="{'invisible' : checkOver(2)}">{{page + 3}}</a>
     <div class="button-next" style="background-image: url('assets/img/circleRight.svg');" (click)="changePage(1)" [ngClass]="{'disable' : checkOver(1)}"></div>
   </div>
