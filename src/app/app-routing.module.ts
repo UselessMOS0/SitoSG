@@ -7,10 +7,15 @@ import { ContentComponent } from './components/services/content/content.componen
 import { GalleryComponent } from './components/services/gallery/gallery.component';
 import { OutletComponent } from './components/services/outlet/outlet.component';
 import { ProjectComponent } from './components/services/project/project.component';
+import { HistoryComponent } from './components/history/history.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'group', component: GroupComponent},
+  {path: 'group', component: GroupComponent,
+    children: [
+      {path: 'history' , component : HistoryComponent}
+    ]
+  },
   {path: 'services/:$id', component: OutletComponent,
   children: [
     {path: 'gallery/:page' , component : GalleryComponent},

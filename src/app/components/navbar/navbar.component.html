@@ -40,14 +40,37 @@
         >
         
       </li>
-      <li class="nav-item">
+      <li class="nav-item" id="drop">
         <a
           class="nav-link"
-          (click)="scrollTop()"
-          [routerLink]="['/group']"
-          [routerLinkActive]="['is-active']"
-          >{{ s.getString("navbar", "group") }}</a
-        >
+          (click)="ani()"
+          
+          >{{ s.getString("navbar", "group") }}
+        </a>
+        <div id="expand-container">
+          <div id="expand-contract" class="collapsed">
+            <ul style="list-style-type: none; margin: 0; padding: 0px;">
+              <a [routerLink]="['/group/history']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{s.language == 'it' ? 'Storia': 'History'}}
+              </li></a>
+              <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+                {{s.language == 'it' ? 'da decidere': 'to be decided'}}
+              </li></a>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <ul style="list-style-type: none; margin: 0; padding: 0px;">
+            <a [routerLink]="['/group/history']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{s.language == 'it' ? 'Storia': 'History'}}
+            </li></a>
+            <a [routerLink]="['/services/2/content']" (click)="scrollTop()" [routerLinkActive]="['is-active']"><li>
+              {{s.language == 'it' ? 'da decidere': 'to be decided'}}
+            </li></a>
+            
+          </ul>
+        </div>
       </li>
       <li class="nav-item" id="drop">
         <a
